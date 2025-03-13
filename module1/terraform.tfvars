@@ -1,0 +1,10 @@
+AppName                 = "testingpipelineravii"
+BuildSpecFileNameForAPI = "buildspec.yml"
+GitHubRepoName          = "my-terraform-repo"
+GitHubRepoBranch        = "main"
+GitHubUser              = "LCO18371"
+GitHubToken             = "12345"  # Store securely!
+SAMOutputFile           = "output.sam.json"
+SAMInputFile            = "templates.yaml"
+CodeBuildImage          = "aws/codebuild/standard:7.0"
+ParametersFile          = "params.json"
